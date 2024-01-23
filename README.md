@@ -35,13 +35,13 @@ export default {
 └─ src
  ├─ components
  ├─ assets 
- ├─ hooks (= hoc)
+ ├─ hooks
  ├─ pages
  ├─ routes
  ├─ constants
  ├─ config
  ├─ styles
- ├─ services (= api)
+ ├─ services
  ├─ utils
  ├─ contexts
  ├─ App.js
@@ -58,7 +58,7 @@ assets
 파비콘과 같이 index.html내부에서 직접 사용하여 컴파일 단계에서 필요하지 않은 파일들은 public에
 반면, 컴포넌트 내부에서 사용하는 이미지 파일인 경우 이 assets 폴더에 위치시켜야 합니다.
 
-hooks (= hoc)
+hooks
 커스텀 훅이 위치하는 폴더입니다.
 
 pages
@@ -76,7 +76,7 @@ config 파일이 많지 않은 경우 보통 최상위에 위치시켜놓지만 
 styles
 css 파일들이 포함되는 폴더입니다.
 
-services (= api)
+services
 
 보통 api관련 로직의 모듈 파일이 위치하며 auth와 같이 인증과 관련된 파일이 포함되기도 합니다.
 
