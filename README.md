@@ -37,6 +37,7 @@ export default {
  ├─ assets 
  ├─ hooks (= hoc)
  ├─ pages
+ ├─ routes
  ├─ constants
  ├─ config
  ├─ styles
@@ -62,6 +63,9 @@ hooks (= hoc)
 
 pages
 react router등을 이용하여 라우팅을 적용할 때 페이지 컴포넌트를 이 폴더에 위치시킵니다.
+
+routes
+react router등을 이용하여 라우팅을 할 경로를 이 폴더에 위치시킵니다.
 
 constants
 공통적으로 사용되는 상수들을 정의한 파일들이 위치하는 폴더입니다.
