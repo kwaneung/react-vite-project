@@ -17,6 +17,10 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    "import/extensions": ["error", "ignorePackages", {
+      "ts": "never",
+      "tsx": "never"
+    }],
   },
   settings: {
     'import/resolver': {
