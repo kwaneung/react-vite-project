@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import reactLogo from './assets/react.svg';
 import viteLogo from '../public/vite.svg';
 import './App.css';
@@ -28,6 +29,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Link to="/secondhome">
+        <button>go to secondhome</button>
+      </Link>
     </>
   );
 }

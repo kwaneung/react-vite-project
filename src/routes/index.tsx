@@ -2,16 +2,16 @@
  * src/routes/index.tsx
  */
 
-import {Routes} from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
+import Home from '@pages/home/Home';
+import SecondHome from '@pages/home/SecondHome';
 
-const AppRouter = () => {
-    return (
-        <Routes>
-            {/*<Route index element={<DefaultComponent />}></Route>*/}
-            {/*<Route path='/task1' element={<Task1 />}></Route>*/}
-            {/*<Route path='/task2' element={<Task2 />}></Route>*/}
-        </Routes>
-    );
-};
+const AppRouter = () => (
+  <Routes>
+    <Route index element={<Home />}></Route>
+    <Route path="/home" element={<Home />} />
+    <Route path="/secondhome" element={<SecondHome />} />
+  </Routes>
+);
 
 export default AppRouter;
