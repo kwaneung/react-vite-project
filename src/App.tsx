@@ -32,6 +32,9 @@ function App() {
       <Link to="/home">
         <button>go to home</button>
       </Link>
+      <Link to="/firsthome">
+        <button>go to firsthome</button>
+      </Link>
       <Link to="/secondhome">
         <button>go to secondhome</button>
       </Link>
