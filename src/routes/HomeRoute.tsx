@@ -10,9 +10,8 @@ import FirstHome from '@pages/home/FirstHome';
 const HomeRoute = () => (
   <Routes>
     <Route path="/" element={<Home />}>
-      <Route index element={<FirstHome />} />
-      <Route path="/firsthome" element={<FirstHome />} />
-      <Route path="/secondhome" element={<SecondHome />} />
+      <Route path="firsthome" element={<FirstHome />} />
+      <Route path="secondhome" element={<SecondHome />} />
     </Route>
   </Routes>
 );
