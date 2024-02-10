@@ -1,6 +1,7 @@
 /**
  * src/pages/home/Home.tsx
  */
+
 import { Link, Outlet, useNavigate } from 'react-router-dom';
 
 const Home = () => {
