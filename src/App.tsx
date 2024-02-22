@@ -1,4 +1,6 @@
 import { useState } from 'react';
+
+import { each } from 'lodash-es';
 import { Link } from 'react-router-dom';
 import reactLogo from './assets/react.svg';
 import viteLogo from '../public/vite.svg';
@@ -6,6 +8,12 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
+
+  const arr = [1, 2, 3, 4, 5];
+
+  each(arr, (num) => {
+    console.log(num, 'hello');
+  });
 
   return (
     <>
