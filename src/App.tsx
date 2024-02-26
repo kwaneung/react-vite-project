@@ -40,6 +40,9 @@ function App() {
       <Link to="/home">
         <button>go to home</button>
       </Link>
+      <Link to="/user">
+        <button>go to user</button>
+      </Link>
     </>
   );
 }
