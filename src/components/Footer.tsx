@@ -18,9 +18,12 @@ const Footer = () => (
     <Link to="/">
       <button style={{ marginRight: '10px' }}>go main</button>
     </Link>
-    <button style={{ marginRight: '10px' }}>Button 2</button>
-    <button style={{ marginRight: '10px' }}>Button 3</button>
-    <button>Button 4</button>
+    <Link to="/home">
+      <button style={{ marginRight: '10px' }}>go home</button>
+    </Link>
+    <Link to="/user">
+      <button style={{ marginRight: '10px' }}>go user</button>
+    </Link>
   </div>
 );
 
